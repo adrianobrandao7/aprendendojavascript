@@ -1,0 +1,20 @@
+Fase 1 JavaScript base (1 a 2 semanas)
+Variáveis, funções, arrays, objetos, assincronismo (Promise, asyncawait) e módulos (importexport). É o que sustenta todo o resto.
+
+Fase 2 Node.js (1 semana)
+Como o JS roda fora do navegador, npm, e criar uma API REST com Express (rotas, requisições, respostas JSON).
+
+Fase 3 PostgreSQL (1 semana)
+SQL básico (SELECT, INSERT, UPDATE, DELETE, JOIN), modelagem de tabelas e conectar o banco à sua API Node (com pg ou um ORM como Prisma).
+
+Fase 4 React (2 semanas)
+Componentes, props, estado (useState), efeitos (useEffect) e consumo da sua API com fetch.
+
+Fase 5 Docker (3 a 5 dias)
+Criar um Dockerfile para a API e o front, e usar docker-compose para subir tudo junto Node, React e Postgres.
+
+Projeto final uma aplicação completa, por exemplo uma lista de tarefas com login, onde o React conversa com a API Node, que salva tudo no Postgres, tudo rodando em containers.
+
+No total são cerca de 6 a 8 semanas estudando com constância. Dá para ir mais rápido se você já tiver experiência com programação.
+
+O ideal é começar pelo JavaScript base, porque sem ele o Node e o React ficam confusos. Posso iniciar o Dia 1 agora, com variáveis, tipos e os primeiros exercícios.
